@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Time - Media Queries</title>
+    <!-- CDN de Font Awesome solicitado -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <!-- Tus estilos locales -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1 class="container__title">Practical Time</h1>
+
+        <section class="container__grid">
+            
+            <!-- TARJETA 1 (Estilo con iconos simples) -->
+            <article class="card">
+                <div class="card__header card__header--purple">
+                    <img src="https://assets.realmadrid.com/is/image/realmadrid/1330603286208?$Mobile$&fit=wrap&wid=312" alt="Cristiano Ronaldo" class="card__avatar">
+                </div>
+                <div class="card__body">
+                    <h2 class="card__name">Cristiano Ronaldo</h2>
+                    <hr class="card__divider">
+                    <p class="card__description">Cristiano Ronaldo dos Santos Aveiro (Funchal, Madeira, 5 de febrero de 1985) es un histórico futbolista y empresario portugués.</p>
+                    
+                    <div class="card__actions">
+                        <i class="fa-solid fa-plus card__icon"></i>
+                        <i class="fa-brands fa-whatsapp card__icon"></i>
+                        <i class="fa-solid fa-envelope card__icon"></i>
+                    </div>
+                </div>
+                <div class="card__footer card__footer--blue">
+                    <div class="card__socials">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </article>
+
+            <!-- TARJETA 2 (Estilo con iconos encerrados en círculos con Modificadores BEM) -->
+            <article class="card">
+                <div class="card__header card__header--purple">
+                    <img src="https://unsplash.com" alt="Sharon Bolivar" class="card__avatar">
+                </div>
+                <div class="card__body">
+                    <h2 class="card__name">Sharon Bolivar</h2>
+                    <hr class="card__divider">
+                    <p class="card__description">Sharon Valentina Bolivar Cordero (Venezuela, Anzoategui, 19 de mayo del 2005) es una estudiante de Tecnología en Electrónica Industrial.</p>
+                    
+                    <div class="card__actions">
+                        <i class="fa-solid fa-plus card__icon card__icon--rounded"></i>
+                        <i class="fa-brands fa-whatsapp card__icon card__icon--rounded"></i>
+                        <i class="fa-solid fa-envelope card__icon card__icon--rounded"></i>
+                    </div>
+                </div>
+                <div class="card__footer card__footer--blue">
+                    <div class="card__socials">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+</body>
+</html>
